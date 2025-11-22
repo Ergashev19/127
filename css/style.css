@@ -79,6 +79,17 @@
 	font-weight: 500;
 }
 
+.hero__image{
+	display: grid;
+	grid-template-columns: 3, 1fr;
+	grid-template-rows: 2, 1fr;
+}
+
+.hero__image--box{
+	background-image: url("");
+	width: 350px;
+	height: 280px;
+}
 /* Otabek end */
 
 /* Shohruhbek start */
