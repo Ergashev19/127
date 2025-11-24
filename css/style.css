@@ -18,6 +18,122 @@
 /* Azizbek end */
 
 /* Otabek start */
+.hero{
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+.hero__paragrf{
+	text-align: center;
+	font-size: 21px;
+	font-weight: 400;
+	color: #333333;
+}
+
+.hero__text{
+	font-size: 30px;
+	font-weight: 700px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	color: #333333;
+	text-align: center;
+}
+
+.hero__box{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.hero__boxx:active{
+	border: none;
+	background-color: #333333;
+}
+
+
+.box__fons--paragrff:active{
+	color: white;
+}
+
+.hero__boxx{
+	width: 165px;
+	height: 61px;
+	background: none;
+	border: 2px solid #D6D6D6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.box__fons--paragrff{
+	color: #333333;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.hero__image{
+	display: grid;
+	justify-content: space-between;
+	grid-template-columns: 3, 1fr;
+	grid-template-rows: 2, 1fr;
+	gap: 30px;
+	margin-top: 55px;
+	margin-bottom: 80px;
+}
+
+.hero__image--box{
+	width: 350px;
+	height: 280px;	
+	padding-top: 222px;
+	text-align: center;
+}
+
+.hero__image--box:first-child{
+	grid-column: 1/2;
+	background-image: url("img/Rectangle\ 5.png");
+}
+
+/* 2 */
+.hero__image--box:nth-child(2){
+	grid-column: 2/3;
+	background-image: url("img/Rectangle\ 5\ \(1\).png");
+}
+
+/* 3 */
+.hero__image--box:nth-child(3){
+	grid-column: 3/4;
+	background-image: url("img/Rectangle\ 5\ \(2\).png");
+}
+
+/* 4 */
+.hero__image--box:nth-child(4){
+	grid-column: 1/2;
+	grid-row: 2/3;
+	background-image: url("img/Rectangle\ 5\ \(5\).png");
+}
+
+/* 5 */
+.hero__image--box:nth-child(5){
+	grid-column: 2/3;
+	grid-row: 2/3;
+	background-image: url("img/Rectangle\ 5\ \(4\).png");
+}
+
+/* 6 */
+.hero__image--box:nth-child(6){
+	grid-column: 3/4;
+	grid-row: 2/3;
+	background-image: url("img/Rectangle\ 5\ \(3\).png");
+}
+
+
+.image__box{
+	color: white;
+	font-size: 24px;
+	font-weight: 500;
+}
+
 /* Otabek end */
 
 /* Shohruhbek start */
