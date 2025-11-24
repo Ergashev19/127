@@ -21,6 +21,78 @@
 /* Otabek end */
 
 /* Shohruhbek start */
+.container{
+    width: 100%;
+    height: 541px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+}
+
+.yozuvlar{
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button{
+    padding: 10px 30px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+/* 2peyj */
+.kichik__yozuv {
+    text-align: center;
+    font-size: 20px;
+}
+.katta__yozuv {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.imglar {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.card {
+    width: 350px; 
+    height: 370px;      
+    position: relative; 
+}
+
+.card img {
+    width: 300px;
+    display: block;
+}
+
+.rasm__yozuvi {
+    position: absolute;
+    bottom: 70px;
+    left: 150px;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn {
+    padding: 15px 35px;
+    background-color: #000;
+    color: white;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;  
+    cursor: pointer;
+    font-size: 18px;
+}
+
 /* Shohruhbek end */
 
 /* Bhriddin start  */
