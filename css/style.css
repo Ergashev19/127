@@ -54,7 +54,6 @@
 .services__section__types{
 	width: 773x;
 	height: 113px;
-	border: 1px solid #fff;
 	margin-top: 60px;
 	display: flex;
 	gap: 80px;
@@ -64,7 +63,6 @@
 .services__section__types--list{
 	width: 245px;
 	height: 105px;
-	border: 1px solid #fff;
 	margin-left: 5px;
 	text-align-last: left;
 }
@@ -78,17 +76,17 @@
 .services__section__types--form{
 	width: 448px;
 	height: 113px;
-	border: 1px solid #fff;
 	padding: 14px 15px 10px 15px  ;
 
 }
 .services__section__types--form--innerbox{
 	width: 418px;
 	height: 85px;
-	border: 1px solid #fff;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: #fff;
+
 }
 
 .services__section__types__form--innerbox-input{
@@ -105,7 +103,13 @@
 .services__section__types__form--innerbox-btn{
 	width: 159px;
 	height: 45px;
-
+	margin-left: 15px;
+	background-color: rgba(51, 51, 51, 1);
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 100%;
+	letter-spacing: 10%;
+	color: white;
 }
 
 .footer__section{
